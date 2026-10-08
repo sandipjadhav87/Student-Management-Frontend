@@ -3,7 +3,7 @@ import './App.css'
 import axios from 'axios';
 function App(){
   // const BASE_URL= 'http://127.0.0.1:8000'   it is used for local run
-  const BASE_URL= ' https://student-management-backend-gnxi.onrender.com'
+  const BASE_URL= 'https://student-management-backend-gnxi.onrender.com'
 
 
   const[students,setStudent]=useState([])
