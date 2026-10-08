@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 import './App.css'
 import axios from 'axios';
 function App(){
-  const BASE_URL= 'http://127.0.0.1:8000'
+  // const BASE_URL= 'http://127.0.0.1:8000'
+  const BASE_URL= ' https://student-management-backend-1-j0tg.onrender.com'
 
 
   const[students,setStudent]=useState([])
